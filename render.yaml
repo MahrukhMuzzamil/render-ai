@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: ai-flask-backend
+    name: render-ai
     runtime: python
     buildCommand: pip install -r requirements.txt
     startCommand: gunicorn app:app
